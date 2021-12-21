@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+    margin: auto;
+    padding: auto;
+}
+.p1{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: 900;
+}
+#content{
+    background-color: rgba(202, 202, 202, 0.445);
+}
+#con{
+    padding-top: 100px;
+}
+.col-4{
+    display: contents;
+}
+hr{
+    width: 50%;
+}
+#content1{
+    background-color: rgba(202, 202, 202, 0.445);
+    margin: auto;
+    padding: auto;
+    width: 100%;
+
+}
+.head {
+    text-align: left;
+}
+.image{
+    float: left;
+}
+.hide{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
