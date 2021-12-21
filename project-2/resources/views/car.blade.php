@@ -6,6 +6,10 @@
 
 @section('content')
 
+@component('components.alert',['title'=>'welcom Dear :','statue'=>'danger'])
+    you can watche the product and his details
+@endcomponent
+
 <body id="content">
 
     <div id="con" class="container">
