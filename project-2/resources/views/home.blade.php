@@ -8,7 +8,7 @@
 
 
 <body id="content">
-    <p class="p1"> view the exhibition</p>
+    <p class="p1"> @lang('translation.view')</p>
     @forelse ($companys as $company)
 
         <div id="card" class="card mb-3" style="max-width: 540px;">

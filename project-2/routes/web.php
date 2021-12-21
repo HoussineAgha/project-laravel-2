@@ -15,5 +15,7 @@ use App\models\car;
 Route::get('/','App\Http\controllers\cars@index');
 Route::get('/cars/{id}','App\Http\controllers\cars@cars')->name('cars');
 Route::get('/cars/details/{id}','App\Http\controllers\cars@details')->name('deta');
+Route::get('/en','App\Http\controllers\languagecontroller@english');
+Route::get('/ar','App\Http\controllers\languagecontroller@arabic');
 
 

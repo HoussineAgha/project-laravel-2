@@ -24,6 +24,12 @@
                 <li class="nav-item">
                 <a class="nav-link" href="#">Cars</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/en">English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ar">Arabic</a>
+                </li>
             </ul>
             </div>
         </nav>
