@@ -6,6 +6,9 @@
 
 @section('content')
 
+@component('components.alert',['title'=>'we are use cookies :','statue'=>'primary'])
+To support your experience on the website.
+@endcomponent
 
 <body id="content">
     <p class="p1"> @lang('translation.view')</p>
