@@ -24,7 +24,7 @@ To support your experience on the website.
                 <h5 class="card-title"><strong>{{$company->name}}</strong></h5>
                 <p class="card-text">{{$company->discription}}</p>
 
-                    <a href= "{{route('cars',$company->id)}}" class="btn btn-primary" >View Product</a>
+                    <a href= "{{route('cars',$company->id)}}" class="btn btn-primary" >@lang('translation.btn')</a>
 
                 </div>
             </div>
