@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +12,23 @@
     @yield('header')
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">@lang('translation.Navbar')</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ">
                 <li class="nav-item active">
-                <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+                <a class="nav-link" href="/">@lang('translation.url_home') <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Cars</a>
+                <a class="nav-link" href="#">@lang('translation.url_cars')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/en">English</a>
+                    <a class="nav-link" href="/en">@lang('translation.url_en')</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ar">Arabic</a>
+                    <a class="nav-link" href="/ar">@lang('translation.url_ar')</a>
                 </li>
             </ul>
             </div>
@@ -49,32 +49,24 @@
                         <small class="d-block mb-3 text-muted">© 2017-2018</small>
                     </div>
                     <div class="col-6 col-md">
-                        <h5>Features</h5>
+                        <h5>@lang('translation.Features')</h5>
                         <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Cool stuff</a></li>
-                        <li><a class="text-muted" href="#">Random feature</a></li>
-                        <li><a class="text-muted" href="#">Team feature</a></li>
-                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                        <li><a class="text-muted" href="#">Another one</a></li>
-                        <li><a class="text-muted" href="#">Last time</a></li>
+                        <li><a class="text-muted" href="#">@lang('translation.Cool stuff')</a></li>
+                        <li><a class="text-muted" href="#">@lang('translation.Random feature')</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-md">
-                        <h5>Resources</h5>
+                        <h5>@lang('translation.Resources')</h5>
                         <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Resource</a></li>
-                        <li><a class="text-muted" href="#">Resource name</a></li>
-                        <li><a class="text-muted" href="#">Another resource</a></li>
-                        <li><a class="text-muted" href="#">Final resource</a></li>
+                        <li><a class="text-muted" href="#">@lang('translation.Resources')</a></li>
+                        <li><a class="text-muted" href="#">@lang('translation.Resource name')</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-md">
-                        <h5>About</h5>
+                        <h5>@lang('translation.About')</h5>
                         <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Team</a></li>
-                        <li><a class="text-muted" href="#">Locations</a></li>
-                        <li><a class="text-muted" href="#">Privacy</a></li>
-                        <li><a class="text-muted" href="#">Terms</a></li>
+                        <li><a class="text-muted" href="#">@lang('translation.Team')</a></li>
+                        <li><a class="text-muted" href="#">@lang('translation.Locations')</a></li>
                         </ul>
                     </div>
                 </div>

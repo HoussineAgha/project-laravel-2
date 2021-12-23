@@ -6,16 +6,16 @@ use Illuminate\Http\Request;
 use App\models\company;
 use App\models\car;
 use App\models\Details;
-use App\Repositories\companyrepositori;
+//use App\Repositories\companyrepositori;
 class Cars extends Controller
 {
 
-    public function index(companyrepositori $companys){
-        return $companys->all();
-        /*
+    public function index(/*companyrepositori $companys*/){
+        //return $companys->all();
+
         $companys=company::all();
         return view('home',compact('companys'));
-        */
+
 }
 
     public function cars($id){

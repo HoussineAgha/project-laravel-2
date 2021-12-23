@@ -6,7 +6,7 @@
 
 @section('content')
 
-@component('components.alert',['title'=>'we are use cookies :','statue'=>'primary'])
+@component('components.alert',['title'=> 'we are use cookies :','statue'=>'primary'])
 To support your experience on the website.
 @endcomponent
 
